@@ -1,0 +1,44 @@
+body {
+    background-color: darkslategrey;
+    color: #ffffff;
+}
+
+.wrapper {
+    width: 980px;
+    margin: 0px auto;
+
+
+
+
+
+}
+
+
+
+header {
+    background-color: beige;
+    height: 1200px;
+    text-align: center;
+}
+
+nav {
+    background-color: cadetblue;
+    border: 1px solid black;
+    text-align: left;
+
+}
+
+h1 {
+    background-color: darksalmon;
+    /* display: inline-block; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+footer {
+    background-color: blanchedalmond;
+}
