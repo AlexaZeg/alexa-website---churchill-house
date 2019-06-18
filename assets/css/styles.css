@@ -7,6 +7,7 @@ body {
     /* make sure you set family and size on border */
     font-family: 'B612 Mono', monospace;
     font-size: 16px;
+    padding-bottom: 30px;
 
 }
 
@@ -152,6 +153,7 @@ footer p {
     float: left;
     padding-right: 40px;
     background-color: white;
+    padding-bottom: 20px;
 
 
 }
