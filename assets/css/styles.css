@@ -22,7 +22,7 @@ h6 {
 
     font-family: font-family: 'Roboto', sans-serif;
     margin: 10px 0 20px 0;
-
+    color: grey
 }
 
 h1 {
@@ -76,8 +76,8 @@ ul li a {}
 /* anchor or link styles */
 
 a {
-    color: antiquewhite;
-    background-color: black;
+    color: darkcyan;
+    background-color: none;
     text-decoration-line: none;
 
 }
