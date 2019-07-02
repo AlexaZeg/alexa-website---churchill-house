@@ -22,17 +22,18 @@ h6 {
 
     font-family: font-family: 'Roboto', sans-serif;
     margin: 10px 0 20px 0;
-    color: grey
+    color: lightgray
 }
 
 h1 {
-    background-color: whitesmoke;
+    background-color: none;
     text-transform: uppercase;
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 28px;
-    font-family: font-family: 'Roboto', sans-serif;
+    padding-right: 20px;
+    font-size: 40px;
+    font-family: font-family:'Ubuntu', sans-serif;
     float: right;
     margin-right: 20px;
 }
@@ -53,9 +54,10 @@ h1 {
 
 h2 {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: none;
     border-bottom: 1px solid white;
     color: tan;
+    padding-top: 65px;
 
 
 }
@@ -78,7 +80,12 @@ h3.build {
 }
 
 
+h3.north {
+    color: tan;
+    padding-top: 35px;
+    font-size: 18px;
 
+}
 
 
 p {
@@ -91,6 +98,8 @@ p {
 
 
 }
+
+/* about us page  */
 
 
 p.overview {
@@ -115,6 +124,9 @@ p.build {
 }
 
 
+p.north {
+    padding-bottom: 150px;
+}
 
 
 p.big {
@@ -123,6 +135,19 @@ p.big {
     padding: 20px;
 
 }
+
+
+p.histpara {
+    line-height: 33px;
+}
+
+ul.histpara {
+    line-height: 23px;
+    margin-left: 60px;
+    padding-bottom: 60px;
+
+}
+
 
 ul {
     color: darkgrey
@@ -199,12 +224,14 @@ nav ul {
 nav ul li {
     display: inline;
     padding: 10px;
+    font-size: 14px;
+    margin-left: none;
 
 }
 
 nav ul li a {
     color: black;
-    background-color: aliceblue;
+    background-color: transparent;
     text-decoration: none;
     padding: 0 10px;
 }
@@ -233,12 +260,13 @@ a.currentpage {
 .subnav ul li {
     display: inline;
     padding: 10px;
+    margin-top: -10px;
 
 }
 
 .subnav ul li a {
-    color: black;
-    background-color: rgba(255, 255, 255, 0.5);
+    color: burlywood;
+    background-color: none;
     text-decoration: none;
     padding: 0 10px;
 }
@@ -277,6 +305,14 @@ a.currentpage {
 
 
 
+.pool {
+    background: url(../images/pool.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+
+}
+
 
 
 .hero.boyd {
@@ -285,13 +321,24 @@ a.currentpage {
 }
 
 
-.facade {
-    background: url(../images/15.jpeg);
+.sketch {
+    background: url(../images/front-sketch.jpg);
     background-size: cover;
-    height: 700px;
+    height: 600px;
     background-position: bottom;
+    max-height: 80%;
 }
 
+.mapimg {
+    max-height: 50%;
+    max-width: 80%;
+
+
+
+
+
+
+}
 
 .leftimg {
     background: url(../images/hero-image.jpg);
@@ -303,6 +350,15 @@ a.currentpage {
 
 
 
+.topimg {
+    background: url(../images/robin.jpg);
+    height: 650px;
+    background-position: top;
+    background-size: cover;
+
+}
+
+
 .hero3img {
     background: url(../images/hero3.jpg);
     height: 650px;
@@ -311,8 +367,23 @@ a.currentpage {
 }
 
 
+.bambooimg {
+    max-width: 40%;
+    margin-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+.crtimg {
+    max-width: 80%;
+    object-position: center;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+
 .nav-container {
-    margin-top: -100px;
+    margin-top: -50px;
 }
 
 
@@ -334,6 +405,13 @@ footer {
 footer p {
     font-size: 60%;
 
+
+
+}
+
+
+ul.features {
+    font-size: 18px;
 
 
 }
