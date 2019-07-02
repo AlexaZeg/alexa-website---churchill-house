@@ -322,9 +322,9 @@ a.currentpage {
 
 
 .sketch {
-    background: url(../images/front-sketch.jpg);
+    background: url(../images/front-sketch2.png);
     background-size: cover;
-    height: 600px;
+    height: 800px;
     background-position: bottom;
     max-height: 80%;
 }
