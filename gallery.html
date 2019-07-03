@@ -17,9 +17,9 @@
 
         <nav>
             <ul>
-                <li><a href="about.html" class="currentpage">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="history.html">History</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="gallery.html" class="currentpage">Gallery</a></li>
                 <li><a href="robin_boyd.html">Robin Boyd</a></li>
                 <li><a href="brutalist_style.html">Brutalist style</a></li>
                 <li><a href="location.html">Location</a></li>
@@ -29,14 +29,22 @@
     </header>
 
 
-    <main>
+
+    <main class="gallery">
         <div class="wrapper">
 
+            <a href="assets/images/1.jpg" data-lightbox="text" data-title="my caption">text</a>
 
-            <img src="assets/images/1.jpg" alt="map image" class="1img">
-            <img src="assets/images/2.jpg" alt="map image" class="2img">
-            <img src="assets/images/3.jpg" alt="map image" class="3img">
-            <img src="assets/images/4.jpg" alt="map image" class="4img">
+
+
+            <h3>Heading</h3>
+            <a href="assets/images/1.jpg" data-lightbox="building" data-title="my caption"><img src="assets/images/1.jpg" alt="map image" class="1img">text</a>
+            <a href="assets/images/2.jpg" data-lightbox="building" data-title="my caption"><img src="assets/images/2.jpg" alt="map image" class="2img"></a>
+            <a href="assets/images/3.jpg" data-lightbox="building" data-title="my caption"><img src="assets/images/3.jpg" alt="map image" class="3img"></a>
+            <a href="assets/images/4.jpg" data-lightbox="building" data-title="my caption"><img src="assets/images/4.jpg" alt="map image" class="4img"></a>
+
+            <hr>
+
             <img src="assets/images/5.jpg" alt="map image" class="5img">
             <img src="assets/images/6.jpg" alt="map image" class="6img">
             <img src="assets/images/7.jpg" alt="map image" class="7img">
@@ -88,4 +96,5 @@
     </footer>
 
 
+    <script src="assets/js/lightbox-plus-jquery.min.js"></script>
 </body></html>

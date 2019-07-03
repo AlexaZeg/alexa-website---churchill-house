@@ -7,7 +7,7 @@ body {
     /* make sure you set family and size on border */
     font-family: 'B612 Mono', monospace;
     font-size: 16px;
-    padding-bottom: 30px;
+    padding-bottom: 1.500em;
 
 }
 
@@ -21,7 +21,7 @@ h5,
 h6 {
 
     font-family: font-family: 'Roboto', sans-serif;
-    margin: 10px 0 20px 0;
+    margin: 10px 0 1.000em 0;
     color: lightgray
 }
 
@@ -29,31 +29,51 @@ h1 {
     background-color: none;
     text-transform: uppercase;
     display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    font-size: 40px;
+    padding-top: 1.000em;
+    padding-bottom: 1.000em;
+    padding-right: 1.000em;
+    font-size: 2.000em;
     font-family: font-family:'Ubuntu', sans-serif;
     float: right;
-    margin-right: 20px;
+    margin-right: 1.000em;
 }
 
 
 
-@media screen and (min-device-width:400px) and (max-device-width:768px) {
+@media screen and (min-device-width:375px) and (max-device-width:768px) {
     .wrapper {
         width: 90%;
     }
 
     img {
         max-width: 90%;
+
     }
+
+    h2 {}
+
+    p {
+
+        font-size: 1.10em;
+    }
+
+
+
 }
 
 
+@media screen and (min-device-width: 375px) {
+
+    img {
+        max-width: 100%;
+        max-height: inherit;
+    }
+
+}
+
 
 h2 {
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: none;
     border-bottom: 1px solid white;
     color: tan;
@@ -64,7 +84,7 @@ h2 {
 
 
 h3.oheading {
-    font-size: 18px;
+    font-size: 1.125em;
     border-bottom: 1px solid white;
     color: tan;
     padding-top: 65px;
@@ -74,26 +94,26 @@ h3.oheading {
 
 h3.build {
     color: tan;
-    padding-top: 35px;
-    font-size: 18px;
+    padding-top: 2.188em;
+    font-size: 1.125em;
 
 }
 
 
 h3.north {
     color: tan;
-    padding-top: 35px;
-    font-size: 18px;
+    padding-top: 2.188em;
+    font-size: 1.125em;
 
 }
 
 
 p {
-    font-size: 18px;
-    line-height: 23px;
-    margin-bottom: 30px;
+    font-size: 1.125em;
+    line-height: 1.150em;
+    margin-bottom: 1.500em;
     color: darkgrey;
-    padding-top: 20px;
+    padding-top: 1.000em;
 
 
 
@@ -103,21 +123,21 @@ p {
 
 
 p.overview {
-    font-size: px;
-    line-height: 23px;
-    margin-bottom: 30px;
+    font-size: 100%;
+    line-height: 1.150em;
+    margin-bottom: 1.500em;
     color: darkgrey;
-    padding-top: 20px;
+    padding-top: 1.000em;
 
 
 }
 
 p.build {
     font-size: px;
-    line-height: 23px;
-    margin-bottom: 30px;
+    line-height: 1.150em;
+    margin-bottom: 1.500em;
     color: darkgrey;
-    padding-top: 20px;
+    padding-top: 1.000em;
     padding-bottom: 100px;
 
 
@@ -132,7 +152,7 @@ p.north {
 p.big {
     color: orange;
     background: whitesmoke;
-    padding: 20px;
+    padding: 1.000em;
 
 }
 
@@ -142,7 +162,7 @@ p.histpara {
 }
 
 ul.histpara {
-    line-height: 23px;
+    line-height: 1.150em;
     margin-left: 60px;
     padding-bottom: 60px;
 
@@ -150,13 +170,15 @@ ul.histpara {
 
 
 ul {
-    color: darkgrey
+    color: darkgrey;
+
 }
 
 ul li {
-    margin-left: none;
+    margin-left: 2em;
     list-style-type: disc;
-    color: darkgrey
+    color: darkgrey;
+    font-size: 1.125em;
 }
 
 
@@ -211,7 +233,7 @@ nav {
     background-color: white;
     text-align: left;
     float: left;
-    margin-top: 38px;
+    margin-top: 55px;
 
 }
 
@@ -223,7 +245,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    padding: 10px;
+    /*    padding: 10px;*/
     font-size: 14px;
     margin-left: none;
 
@@ -248,7 +270,7 @@ a.currentpage {
 .subnav {
     /*    border-top: 1px solid whitesmoke;*/
     /*    border-bottom: 1px solid whitesmoke;*/
-    padding: 20px 0;
+    padding: 1.000em 0;
     /*    background-color: whitesmoke;*/
 }
 
@@ -288,7 +310,7 @@ a.currentpage {
 
 .hero {
     background: url(../images/j.front.jpg);
-    height: 700px;
+    height: 650px;
     background-position: center;
     background-size: cover;
 
@@ -297,7 +319,7 @@ a.currentpage {
 
 .hero2 {
     background: url(../images/front_facade.JPEG);
-    height: 700px;
+    height: 650px;
     background-position: center;
     background-size: cover;
 
@@ -307,7 +329,7 @@ a.currentpage {
 
 .pool {
     background: url(../images/pool.jpg);
-    height: 700px;
+    height: 650px;
     background-position: center;
     background-size: cover;
 
@@ -318,13 +340,27 @@ a.currentpage {
 .hero.boyd {
     background: url(../images/courtyard2.jpeg);
     background-size: cover;
+
+}
+
+.hero-text {
+    /*    background: rgba(255, 255, 255, 0.7);*/
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 20px;
+
+}
+
+.hero-text h2 {
+    /*    set font size etc here*/
 }
 
 
 .sketch {
     background: url(../images/front-sketch2.png);
     background-size: cover;
-    height: 800px;
+    height: 650px;
     background-position: bottom;
     max-height: 80%;
 }
@@ -332,9 +368,14 @@ a.currentpage {
 .mapimg {
     max-height: 50%;
     max-width: 80%;
+}
 
-
-
+.brutalist {
+    background: url(../images/2.jpg);
+    background-size: cover;
+    height: 650px;
+    background-position: bottom;
+    max-height: 80%;
 
 
 
@@ -364,21 +405,22 @@ a.currentpage {
     height: 650px;
     background-position: bottom;
     background-size: cover;
+    position: relative;
 }
 
 
 .bambooimg {
     max-width: 40%;
-    margin-right: 20px;
-    padding-bottom: 20px;
+    margin-right: 1.000em;
+    padding-bottom: 1.000em;
 
 }
 
 .crtimg {
     max-width: 80%;
     object-position: center;
-    margin-right: 20px;
-    padding-bottom: 20px;
+    margin-right: 1.000em;
+    padding-bottom: 1.000em;
 }
 
 
@@ -399,7 +441,7 @@ main {
 
 footer {
     background-color: blanchedalmond;
-    padding: 20px;
+    padding: 1.000em;
 }
 
 footer p {
@@ -411,7 +453,7 @@ footer p {
 
 
 ul.features {
-    font-size: 18px;
+    font-size: 1.125em;
 
 
 }
@@ -420,8 +462,8 @@ ul.features {
 }
 
 .frontimg {
-    padding-top: 20px;
-    padding-bottom: 40px
+    padding-top: 1.000em;
+    padding-bottom: 2.000em
 }
 
 .sketchimg {}
@@ -430,4 +472,40 @@ ul.features {
 
 main img {
     max-width: 100%;
+}
+
+.gallery {
+    width: 100%;
+}
+
+.gallery img {
+    max-width: 300px;
+}
+
+@media screen and (max-device-width:450px) {
+    header {
+        height: 160px;
+    }
+
+    h1 {
+        margin-bottom: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    nav {
+        margin-top: 0;
+    }
+
+    nav ul li {
+        font-size: 148%;
+        padding: 0;
+    }
+}
+
+@media screen and (min-device-width: 425px) and (max-device-width:1025px) {
+    h1 {
+        padding-right: 0;
+        margin-right: 0;
+    }
 }
