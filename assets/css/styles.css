@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=B612+Mono:400,400i|Inconsolata:400,700|Roboto:400,400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=B612+Mono:400,400i|Inconsolata:400,700|Expletus+Sans|Cedarville+Cursive: 400|Roboto:400,400i&display=swap');
 
 
 body {
@@ -22,7 +22,7 @@ h6 {
 
     font-family: font-family: 'Roboto', sans-serif;
     margin: 10px 0 1.000em 0;
-    color: lightgray
+    color: dimgrey;
 }
 
 h1 {
@@ -123,7 +123,6 @@ p {
 
 
 p.overview {
-    font-size: 100%;
     line-height: 1.150em;
     margin-bottom: 1.500em;
     color: darkgrey;
@@ -179,6 +178,7 @@ ul li {
     list-style-type: disc;
     color: darkgrey;
     font-size: 1.125em;
+    margin-bottom: .2em;
 }
 
 
@@ -187,11 +187,17 @@ ul li a {}
 
 /* anchor or link styles */
 
-a {
-    color: darkcyan;
+h1 a,
+h1 a:visited {
+    color: darkslategray;
     background-color: none;
     text-decoration-line: none;
+}
 
+a {
+    color: cadetblue;
+    background-color: none;
+    text-decoration-line: none;
 }
 
 
@@ -239,7 +245,8 @@ nav {
 
 
 nav ul {
-    margin-left: none;
+    margin-left: 5px;
+    ;
 
 }
 
@@ -252,7 +259,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: midnightblue;
     background-color: transparent;
     text-decoration: none;
     padding: 0 10px;
@@ -337,6 +344,13 @@ a.currentpage {
 
 }
 
+.trees {
+    background: url(../images/trees.jpg);
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+
+}
 
 
 .hero.boyd {
@@ -352,9 +366,17 @@ a.currentpage {
     bottom: 20px;
     margin-left: 20px;
 
+
+}
+
+.hero.location {
+    background: none;
 }
 
 .hero-text h2 {
+    font-size: 35px;
+    font-family: 'Expletus Sans', cursive;
+    padding-left: 20px;
     /*    set font size etc here*/
 }
 
@@ -447,9 +469,21 @@ main {
 
 }
 
+main.spacing {
+    background-color: white;
+    padding: 10px 15px;
+    padding-bottom: 100px;
+    overflow: auto;
+    font-size: 1.00em;
+    line-height: 1.150em;
+
+
+}
+
 footer {
     background-color: blanchedalmond;
     padding: 1.000em;
+    margin-top: 5.0em;
 }
 
 footer p {
@@ -467,6 +501,10 @@ ul.features {
 }
 
 
+.map {
+    margin-top: -50px;
+    border: 0;
+
 }
 
 .frontimg {
@@ -482,7 +520,15 @@ main img {
     max-width: 100%;
 }
 
-.gallery {
+main.gallery {
+    overflow: visible;
+}
+
+main.gallery .wrapper {
+    width: 100%;
+}
+
+main.spacing .gallery {
     width: 100%;
 }
 
@@ -523,6 +569,10 @@ main img {
         display: inline-block;
         margin-left: 0;
         padding: 0;
+    }
+
+    .map {
+        margin: 0;
     }
 }
 
